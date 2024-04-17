@@ -9,6 +9,7 @@ public class Arrays3_2 {
             System.out.println("score[" + i + "] = " + score[i]);
             sum += score[i];
         }
+        // for (int i : score)도 가능
 
         avg = sum / (float) (score.length); // float형으로 변환하지 않으면 소숫점이 잘린 평균이 나옴
 
